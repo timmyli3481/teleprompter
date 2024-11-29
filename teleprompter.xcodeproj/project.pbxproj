@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B1D87E7C2CF83FB60033C8CE /* Teleprompter Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B1D87E592CF83FB50033C8CE /* Teleprompter Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B1D66D262CF82CFB006B4E48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +25,85 @@
 			remoteGlobalIDString = B1D66D132CF82CFA006B4E48;
 			remoteInfo = teleprompter;
 		};
+		B1D87DD82CF834970033C8CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D66D0C2CF82CFA006B4E48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D87DC72CF834960033C8CE;
+			remoteInfo = "teleprompter iOS";
+		};
+		B1D87DE22CF834970033C8CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D66D0C2CF82CFA006B4E48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D87DC72CF834960033C8CE;
+			remoteInfo = "teleprompter iOS";
+		};
+		B1D87E692CF83FB60033C8CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D66D0C2CF82CFA006B4E48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D87E582CF83FB50033C8CE;
+			remoteInfo = "Teleprompter Watch App";
+		};
+		B1D87E732CF83FB60033C8CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D66D0C2CF82CFA006B4E48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D87E582CF83FB50033C8CE;
+			remoteInfo = "Teleprompter Watch App";
+		};
+		B1D87E7A2CF83FB60033C8CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D66D0C2CF82CFA006B4E48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D87E582CF83FB50033C8CE;
+			remoteInfo = "Teleprompter Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1D87E1D2CF83D890033C8CE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B1D87E7C2CF83FB60033C8CE /* Teleprompter Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B1D66D142CF82CFA006B4E48 /* teleprompter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teleprompter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D66D252CF82CFB006B4E48 /* teleprompterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teleprompterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D66D2F2CF82CFB006B4E48 /* teleprompterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teleprompterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D87DC82CF834960033C8CE /* teleprompter iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "teleprompter iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D87DD72CF834970033C8CE /* teleprompter iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "teleprompter iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D87DE12CF834970033C8CE /* teleprompter iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "teleprompter iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D87E592CF83FB50033C8CE /* Teleprompter Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teleprompter Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D87E682CF83FB60033C8CE /* Teleprompter Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teleprompter Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D87E722CF83FB60033C8CE /* Teleprompter Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teleprompter Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B1D87E8D2CF8467D0033C8CE /* Exceptions for "teleprompter" folder in "teleprompter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B1D66D132CF82CFA006B4E48 /* teleprompter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B1D66D162CF82CFA006B4E48 /* teleprompter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B1D87E8D2CF8467D0033C8CE /* Exceptions for "teleprompter" folder in "teleprompter" target */,
+			);
 			path = teleprompter;
 			sourceTree = "<group>";
 		};
@@ -43,6 +115,51 @@
 		B1D66D322CF82CFB006B4E48 /* teleprompterUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = teleprompterUITests;
+			sourceTree = "<group>";
+		};
+		B1D66D472CF82F6C006B4E48 /* teleprompter iOS App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "teleprompter iOS App";
+			sourceTree = "<group>";
+		};
+		B1D66D582CF82F6D006B4E48 /* teleprompter iOS AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "teleprompter iOS AppTests";
+			sourceTree = "<group>";
+		};
+		B1D66D622CF82F6D006B4E48 /* teleprompter iOS AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "teleprompter iOS AppUITests";
+			sourceTree = "<group>";
+		};
+		B1D87DC92CF834960033C8CE /* teleprompter iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "teleprompter iOS";
+			sourceTree = "<group>";
+		};
+		B1D87DDA2CF834970033C8CE /* teleprompter iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "teleprompter iOSTests";
+			sourceTree = "<group>";
+		};
+		B1D87DE42CF834970033C8CE /* teleprompter iOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "teleprompter iOSUITests";
+			sourceTree = "<group>";
+		};
+		B1D87E5A2CF83FB50033C8CE /* Teleprompter Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Teleprompter Watch App";
+			sourceTree = "<group>";
+		};
+		B1D87E6B2CF83FB60033C8CE /* Teleprompter Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Teleprompter Watch AppTests";
+			sourceTree = "<group>";
+		};
+		B1D87E752CF83FB60033C8CE /* Teleprompter Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Teleprompter Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +186,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1D87DC52CF834960033C8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87DD42CF834970033C8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87DDE2CF834970033C8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87E562CF83FB50033C8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87E652CF83FB60033C8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87E6F2CF83FB60033C8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +237,15 @@
 				B1D66D162CF82CFA006B4E48 /* teleprompter */,
 				B1D66D282CF82CFB006B4E48 /* teleprompterTests */,
 				B1D66D322CF82CFB006B4E48 /* teleprompterUITests */,
+				B1D66D472CF82F6C006B4E48 /* teleprompter iOS App */,
+				B1D66D582CF82F6D006B4E48 /* teleprompter iOS AppTests */,
+				B1D66D622CF82F6D006B4E48 /* teleprompter iOS AppUITests */,
+				B1D87DC92CF834960033C8CE /* teleprompter iOS */,
+				B1D87DDA2CF834970033C8CE /* teleprompter iOSTests */,
+				B1D87DE42CF834970033C8CE /* teleprompter iOSUITests */,
+				B1D87E5A2CF83FB50033C8CE /* Teleprompter Watch App */,
+				B1D87E6B2CF83FB60033C8CE /* Teleprompter Watch AppTests */,
+				B1D87E752CF83FB60033C8CE /* Teleprompter Watch AppUITests */,
 				B1D66D152CF82CFA006B4E48 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +256,12 @@
 				B1D66D142CF82CFA006B4E48 /* teleprompter.app */,
 				B1D66D252CF82CFB006B4E48 /* teleprompterTests.xctest */,
 				B1D66D2F2CF82CFB006B4E48 /* teleprompterUITests.xctest */,
+				B1D87DC82CF834960033C8CE /* teleprompter iOS.app */,
+				B1D87DD72CF834970033C8CE /* teleprompter iOSTests.xctest */,
+				B1D87DE12CF834970033C8CE /* teleprompter iOSUITests.xctest */,
+				B1D87E592CF83FB50033C8CE /* Teleprompter Watch App.app */,
+				B1D87E682CF83FB60033C8CE /* Teleprompter Watch AppTests.xctest */,
+				B1D87E722CF83FB60033C8CE /* Teleprompter Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +337,144 @@
 			productReference = B1D66D2F2CF82CFB006B4E48 /* teleprompterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B1D87DC72CF834960033C8CE /* teleprompter iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D87DEF2CF834970033C8CE /* Build configuration list for PBXNativeTarget "teleprompter iOS" */;
+			buildPhases = (
+				B1D87DC42CF834960033C8CE /* Sources */,
+				B1D87DC52CF834960033C8CE /* Frameworks */,
+				B1D87DC62CF834960033C8CE /* Resources */,
+				B1D87E1D2CF83D890033C8CE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D87E7B2CF83FB60033C8CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B1D87DC92CF834960033C8CE /* teleprompter iOS */,
+			);
+			name = "teleprompter iOS";
+			packageProductDependencies = (
+			);
+			productName = "teleprompter iOS";
+			productReference = B1D87DC82CF834960033C8CE /* teleprompter iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1D87DD62CF834970033C8CE /* teleprompter iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D87DF02CF834970033C8CE /* Build configuration list for PBXNativeTarget "teleprompter iOSTests" */;
+			buildPhases = (
+				B1D87DD32CF834970033C8CE /* Sources */,
+				B1D87DD42CF834970033C8CE /* Frameworks */,
+				B1D87DD52CF834970033C8CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D87DD92CF834970033C8CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B1D87DDA2CF834970033C8CE /* teleprompter iOSTests */,
+			);
+			name = "teleprompter iOSTests";
+			packageProductDependencies = (
+			);
+			productName = "teleprompter iOSTests";
+			productReference = B1D87DD72CF834970033C8CE /* teleprompter iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1D87DE02CF834970033C8CE /* teleprompter iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D87DF12CF834970033C8CE /* Build configuration list for PBXNativeTarget "teleprompter iOSUITests" */;
+			buildPhases = (
+				B1D87DDD2CF834970033C8CE /* Sources */,
+				B1D87DDE2CF834970033C8CE /* Frameworks */,
+				B1D87DDF2CF834970033C8CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D87DE32CF834970033C8CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B1D87DE42CF834970033C8CE /* teleprompter iOSUITests */,
+			);
+			name = "teleprompter iOSUITests";
+			packageProductDependencies = (
+			);
+			productName = "teleprompter iOSUITests";
+			productReference = B1D87DE12CF834970033C8CE /* teleprompter iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B1D87E582CF83FB50033C8CE /* Teleprompter Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D87E7D2CF83FB60033C8CE /* Build configuration list for PBXNativeTarget "Teleprompter Watch App" */;
+			buildPhases = (
+				B1D87E552CF83FB50033C8CE /* Sources */,
+				B1D87E562CF83FB50033C8CE /* Frameworks */,
+				B1D87E572CF83FB50033C8CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B1D87E5A2CF83FB50033C8CE /* Teleprompter Watch App */,
+			);
+			name = "Teleprompter Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Teleprompter Watch App";
+			productReference = B1D87E592CF83FB50033C8CE /* Teleprompter Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1D87E672CF83FB60033C8CE /* Teleprompter Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D87E802CF83FB60033C8CE /* Build configuration list for PBXNativeTarget "Teleprompter Watch AppTests" */;
+			buildPhases = (
+				B1D87E642CF83FB60033C8CE /* Sources */,
+				B1D87E652CF83FB60033C8CE /* Frameworks */,
+				B1D87E662CF83FB60033C8CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D87E6A2CF83FB60033C8CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B1D87E6B2CF83FB60033C8CE /* Teleprompter Watch AppTests */,
+			);
+			name = "Teleprompter Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Teleprompter Watch AppTests";
+			productReference = B1D87E682CF83FB60033C8CE /* Teleprompter Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1D87E712CF83FB60033C8CE /* Teleprompter Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D87E832CF83FB60033C8CE /* Build configuration list for PBXNativeTarget "Teleprompter Watch AppUITests" */;
+			buildPhases = (
+				B1D87E6E2CF83FB60033C8CE /* Sources */,
+				B1D87E6F2CF83FB60033C8CE /* Frameworks */,
+				B1D87E702CF83FB60033C8CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D87E742CF83FB60033C8CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B1D87E752CF83FB60033C8CE /* Teleprompter Watch AppUITests */,
+			);
+			name = "Teleprompter Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Teleprompter Watch AppUITests";
+			productReference = B1D87E722CF83FB60033C8CE /* Teleprompter Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,7 +482,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
+				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					B1D66D132CF82CFA006B4E48 = {
@@ -183,6 +495,28 @@
 					B1D66D2E2CF82CFB006B4E48 = {
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = B1D66D132CF82CFA006B4E48;
+					};
+					B1D87DC72CF834960033C8CE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B1D87DD62CF834970033C8CE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B1D87DC72CF834960033C8CE;
+					};
+					B1D87DE02CF834970033C8CE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B1D87DC72CF834960033C8CE;
+					};
+					B1D87E582CF83FB50033C8CE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B1D87E672CF83FB60033C8CE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B1D87E582CF83FB50033C8CE;
+					};
+					B1D87E712CF83FB60033C8CE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B1D87E582CF83FB50033C8CE;
 					};
 				};
 			};
@@ -203,6 +537,12 @@
 				B1D66D132CF82CFA006B4E48 /* teleprompter */,
 				B1D66D242CF82CFB006B4E48 /* teleprompterTests */,
 				B1D66D2E2CF82CFB006B4E48 /* teleprompterUITests */,
+				B1D87DC72CF834960033C8CE /* teleprompter iOS */,
+				B1D87DD62CF834970033C8CE /* teleprompter iOSTests */,
+				B1D87DE02CF834970033C8CE /* teleprompter iOSUITests */,
+				B1D87E582CF83FB50033C8CE /* Teleprompter Watch App */,
+				B1D87E672CF83FB60033C8CE /* Teleprompter Watch AppTests */,
+				B1D87E712CF83FB60033C8CE /* Teleprompter Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +563,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B1D66D2D2CF82CFB006B4E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87DC62CF834960033C8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87DD52CF834970033C8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87DDF2CF834970033C8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87E572CF83FB50033C8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87E662CF83FB60033C8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87E702CF83FB60033C8CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +635,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1D87DC42CF834960033C8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87DD32CF834970033C8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87DDD2CF834970033C8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87E552CF83FB50033C8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87E642CF83FB60033C8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D87E6E2CF83FB60033C8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +689,31 @@
 			isa = PBXTargetDependency;
 			target = B1D66D132CF82CFA006B4E48 /* teleprompter */;
 			targetProxy = B1D66D302CF82CFB006B4E48 /* PBXContainerItemProxy */;
+		};
+		B1D87DD92CF834970033C8CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D87DC72CF834960033C8CE /* teleprompter iOS */;
+			targetProxy = B1D87DD82CF834970033C8CE /* PBXContainerItemProxy */;
+		};
+		B1D87DE32CF834970033C8CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D87DC72CF834960033C8CE /* teleprompter iOS */;
+			targetProxy = B1D87DE22CF834970033C8CE /* PBXContainerItemProxy */;
+		};
+		B1D87E6A2CF83FB60033C8CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D87E582CF83FB50033C8CE /* Teleprompter Watch App */;
+			targetProxy = B1D87E692CF83FB60033C8CE /* PBXContainerItemProxy */;
+		};
+		B1D87E742CF83FB60033C8CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D87E582CF83FB50033C8CE /* Teleprompter Watch App */;
+			targetProxy = B1D87E732CF83FB60033C8CE /* PBXContainerItemProxy */;
+		};
+		B1D87E7B2CF83FB60033C8CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D87E582CF83FB50033C8CE /* Teleprompter Watch App */;
+			targetProxy = B1D87E7A2CF83FB60033C8CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -392,8 +841,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"teleprompter/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = teleprompter/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app needs to use your local network to connect with other devices.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -431,6 +883,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"teleprompter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = teleprompter/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app needs to use your local network to connect with other devices.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -543,6 +997,294 @@
 			};
 			name = Release;
 		};
+		B1D87DE92CF834970033C8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"teleprompter iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "teleprompter-iOS-Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app needs to use your local network to connect with your Mac.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.teleprompter-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1D87DEA2CF834970033C8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"teleprompter iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "teleprompter-iOS-Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app needs to use your local network to connect with your Mac.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.teleprompter-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1D87DEB2CF834970033C8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.teleprompter-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teleprompter iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/teleprompter iOS";
+			};
+			name = Debug;
+		};
+		B1D87DEC2CF834970033C8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.teleprompter-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teleprompter iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/teleprompter iOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1D87DED2CF834970033C8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.teleprompter-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "teleprompter iOS";
+			};
+			name = Debug;
+		};
+		B1D87DEE2CF834970033C8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.teleprompter-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "teleprompter iOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1D87E7E2CF83FB60033C8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Teleprompter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Teleprompter;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "test.teleprompter-iOS";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.teleprompter-iOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		B1D87E7F2CF83FB60033C8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Teleprompter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Teleprompter;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "test.teleprompter-iOS";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.teleprompter-iOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		B1D87E812CF83FB60033C8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Teleprompter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teleprompter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Teleprompter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		B1D87E822CF83FB60033C8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Teleprompter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teleprompter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Teleprompter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		B1D87E842CF83FB60033C8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Teleprompter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Teleprompter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		B1D87E852CF83FB60033C8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y37FPA8TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Teleprompter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Teleprompter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,6 +1320,60 @@
 			buildConfigurations = (
 				B1D66D402CF82CFC006B4E48 /* Debug */,
 				B1D66D412CF82CFC006B4E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D87DEF2CF834970033C8CE /* Build configuration list for PBXNativeTarget "teleprompter iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D87DE92CF834970033C8CE /* Debug */,
+				B1D87DEA2CF834970033C8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D87DF02CF834970033C8CE /* Build configuration list for PBXNativeTarget "teleprompter iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D87DEB2CF834970033C8CE /* Debug */,
+				B1D87DEC2CF834970033C8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D87DF12CF834970033C8CE /* Build configuration list for PBXNativeTarget "teleprompter iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D87DED2CF834970033C8CE /* Debug */,
+				B1D87DEE2CF834970033C8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D87E7D2CF83FB60033C8CE /* Build configuration list for PBXNativeTarget "Teleprompter Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D87E7E2CF83FB60033C8CE /* Debug */,
+				B1D87E7F2CF83FB60033C8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D87E802CF83FB60033C8CE /* Build configuration list for PBXNativeTarget "Teleprompter Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D87E812CF83FB60033C8CE /* Debug */,
+				B1D87E822CF83FB60033C8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D87E832CF83FB60033C8CE /* Build configuration list for PBXNativeTarget "Teleprompter Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D87E842CF83FB60033C8CE /* Debug */,
+				B1D87E852CF83FB60033C8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

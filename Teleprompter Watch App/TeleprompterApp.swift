@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct Teleprompter_Watch_AppApp: App {
+struct TeleprompterApp: App {
+    @StateObject private var viewModel = WatchViewModel.shared
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
         }
     }
 }

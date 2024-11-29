@@ -4,10 +4,58 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>teleprompter.xcscheme_^#shared#^_</key>
+		<key>Teleprompter Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>teleprompter iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>teleprompter iOSTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>teleprompter iOSUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>teleprompter.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B1D87DC72CF834960033C8CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1D87DD62CF834970033C8CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1D87E582CF83FB50033C8CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1D87E672CF83FB60033C8CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1D87E712CF83FB60033C8CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
