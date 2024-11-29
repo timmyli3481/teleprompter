@@ -117,21 +117,6 @@
 			path = teleprompterUITests;
 			sourceTree = "<group>";
 		};
-		B1D66D472CF82F6C006B4E48 /* teleprompter iOS App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "teleprompter iOS App";
-			sourceTree = "<group>";
-		};
-		B1D66D582CF82F6D006B4E48 /* teleprompter iOS AppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "teleprompter iOS AppTests";
-			sourceTree = "<group>";
-		};
-		B1D66D622CF82F6D006B4E48 /* teleprompter iOS AppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "teleprompter iOS AppUITests";
-			sourceTree = "<group>";
-		};
 		B1D87DC92CF834960033C8CE /* teleprompter iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "teleprompter iOS";
@@ -237,9 +222,6 @@
 				B1D66D162CF82CFA006B4E48 /* teleprompter */,
 				B1D66D282CF82CFB006B4E48 /* teleprompterTests */,
 				B1D66D322CF82CFB006B4E48 /* teleprompterUITests */,
-				B1D66D472CF82F6C006B4E48 /* teleprompter iOS App */,
-				B1D66D582CF82F6D006B4E48 /* teleprompter iOS AppTests */,
-				B1D66D622CF82F6D006B4E48 /* teleprompter iOS AppUITests */,
 				B1D87DC92CF834960033C8CE /* teleprompter iOS */,
 				B1D87DDA2CF834970033C8CE /* teleprompter iOSTests */,
 				B1D87DE42CF834970033C8CE /* teleprompter iOSUITests */,
